@@ -4,8 +4,14 @@ Cartography 2.0 is a free online knowledge base and e-textbook for students and 
 
 ## About the Archive
 
-Cartography2.0 is no longer online. This is a copy pulled from the [Internet Archive Wayback Machine](http://archive.org/web/web.php).
+Cartography2.0 is no longer online. This is a copy pulled from the [Internet Archive Wayback Machine](http://archive.org/web/web.php) and converted to Markdown with [HeckYesMarkdown](http://heckyesmarkdown.com/).
 
 ## Table of Contents
 
+* [[Purpose]]
 * [[CartographicText]]
+* [[CoordinatedViews]]
+* [[DataProbing]]
+* [[GeospatialUncertainty]]
+* [[InterfaceEvaluation]]
+* [[MapInteractionOverview]]
