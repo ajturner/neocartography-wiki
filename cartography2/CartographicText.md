@@ -27,7 +27,8 @@ In practice, map lettering is a highly iterative and often very time consuming c
 
 Below, I'll look at just one of the practical design considerations related to type selection, namely choosing a font for maps to be displayed on screen. This is perhaps the first decision of the map lettering task and can have a significant effect on map legibility and readability, look and feel, and the ability of text to serve its intended purposes. Starting out with good choices also directly impacts the ease and efficiency of executing the task itself.
 
-Resolution  
+## Resolution  
+
 Resolution is what determines how much detail we can see on screen. As the physical size of pixels gets smaller (and resolution increases), our ability to see details improves. For example, it’s no surprise that text looks clearer in high-definition than on a standard television display. The major type selection consideration here is legibility. Currently, on most computer screens we’re typically dealing with a resolution of between just 90 and 110 pixels per inch. That’s pretty low compared to what we can get out of even a common desktop inkjet printer, which can lay down ink between 300 and 600 dots per inch. Compared to the printed page, when fonts are viewed on screen we loose some of the details that make them legible and easy to read. Small finishing elements like serifs and ears can degrade, interior spaces like counters, apertures, eyes, and bowls can change shape or collapse, and stems and strokes can loose their intended weight, contrast and curvature. This is especially true at the small type sizes that cartographers often must deal with when lettering maps.
 
 ![letterformDiagram_cart2_v3][8]  
@@ -48,7 +49,8 @@ Anti-aliasing can produce great results at larger font sizes, but tends to&nbsp;
 The range of anti-aliasing defaults in Photoshop. Anti-aliasing tends to hurt more than help below around 9 points.  
 
 
-Pixel Fonts  
+## Pixel Fonts 
+
 Given the trouble of blurriness with small anti-aliased text, why not consider removing anti-aliasing, or going with a pixel (bitmap) font as an alternative? True pixel fonts are designed by arranging pixels, not vectors, into letterforms. They're intended to work without anti-aliasing at very small sizes—8 points and lower. Unfortunately, by nature, they only work at&nbsp;fixed sizes (and then at multiples of their original size) and along horizontal or vertical rows.&nbsp;So, as much as I like them for some purposes (e.g., small interface text), pixel fonts don't scale well across small size ranges, nor can they be rotated and curved along paths. The following example shows a pixel font ([Unibody 8][13]) in action on a map:  
 
 
@@ -56,7 +58,8 @@ Given the trouble of blurriness with small anti-aliased text, why not consider r
 The Pixel City label (8 pt size) works well because it is oriented horizontally. The other labels (8 and 16 pt sizes) break down along curved paths.  
 
 
-Minimum Size  
+## Minimum Size 
+
 As a general rule, we hesitate to go below 10 points as the minimum point size for screen-based maps. (For comparison, type at 6 pts and below is common on print maps). While 9 point type (or smaller) can be legible (as in the example above), it may require more work from the map user or be more likely to result in reading errors than type that is just one or two points larger. Of course, different typefaces and different reading conditions produce different results, so each should be examined and tested individually. Will the map be viewed on a new high-definition plasma TV, a 5-year old VGA laptop, or a handheld GPS device? Who is the intended audience? Does it consist of younger or older people? Answers to these are often unknown, especially when designing maps for the Web. This can mean considering a small size that will be legible for the ‘lowest common denominator’.
 
 Selecting a Type Family for the Screen  
@@ -78,7 +81,8 @@ What makes the above fonts ideal candidates for the screen? And, what are the ma
 
 *   Hinting.&nbsp; [Hinting][20] is&nbsp;one way in which type designers can precisely control the way font outlines are mapped to specific pixels. ‘Hints’ are encoded in font files for rendering purposes and have a big impact on legibility, especially at small text sizes when some letters are not much more than 5-6 pixels in height. Beware of knock-off fonts that are poorly hinted versions of professionally hinted originals.
 
-Case Study in Selecting a Map Font  
+## Case Study in Selecting a Map Font
+
 Despite the vast number of fonts available to choose from, we’ve found that only a few serve our purposes well and therefore we tend to return to them over and over again. Officina (both [Officina Sans][21]and [Officina Serif][22])&nbsp;is one such font (a font family, really) that we've found to be highly versatile, employing it on everything from map user interfaces to printed reference maps. It was&nbsp;originally designed by Erik Spiekermann as a robust font for business correspondence, including memos, faxes, photocopies, and other documents output at course resolutions. A number of design characteristics, drawn from the list above, make it an ideal candidate for maps appearing on screen. Officina&nbsp;has a tall x-height, wide&nbsp;apertures&nbsp;and large&nbsp;counters, as seen in the letters 'c', 'a', and 'e', for example.&nbsp;Serifs&nbsp;are blocky and square in shape, and strokes are consistently strong, having low contrast.&nbsp;By design, Officina is also a relatively narrow type family (considerably narrower than Trebuchet MS but not as condensed as Arial Narrow, for example), which makes it effective in high density labeling scenarios.
 ![officina][23]  
 Sample of the Officina font family
@@ -125,7 +129,7 @@ There are a few more reasons we like Officina, as well. Although not directly pe
 *   File Format.&nbsp; Officina is available in the [Open Type][28] file format. In addition to a number of advanced typographic features, OT fonts are cross-platform compatible, which from a development perspective make them a viable option when collaborating on a project.
 
   
-Recommended Reading  
+## Recommended Reading  
 
 
 Books:  

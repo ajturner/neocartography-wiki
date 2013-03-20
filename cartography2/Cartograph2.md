@@ -4,6 +4,8 @@ Cartography 2.0 is a free online knowledge base and e-textbook for students and 
 
 ## About the Archive
 
+[Materials](index) are from the [Cartography2.0](http://web.archive.org/web/20110830180221/http://www.cartography2.org/) website under [Creative Commons NC-SA 3.0 License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
+
 Cartography2.0 is no longer online. This is a copy pulled from the [Internet Archive Wayback Machine](http://archive.org/web/web.php) and converted to Markdown with [HeckYesMarkdown](http://heckyesmarkdown.com/).
 
 ## Table of Contents
@@ -15,3 +17,4 @@ Cartography2.0 is no longer online. This is a copy pulled from the [Internet Arc
 * [[GeospatialUncertainty]]
 * [[InterfaceEvaluation]]
 * [[MapInteractionOverview]]
+
