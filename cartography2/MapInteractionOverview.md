@@ -12,10 +12,8 @@ Folks who have inspired much of my thinking on this: Gennady Andrienko, Natalia 
 
 Keywords: cartographic interaction, dynamic cartography, interactive maps, geographic visualization, swoopy, Cartography3, exploration, discovery, goals, objectives, operators, user inputs, operands
 
-Introduction  
+### Introduction  
 
-
-  
 What image first comes to mind when asked to think of a map? Do you think of the reference map of the world hanging in your 4th grade social studies classroom? Perhaps you think of the printed road atlas you keep in your car or the tourism brochure you grabbed while on your last vacation. Maybe you enjoy hiking and are familiar with topographic maps or recently purchased a home and had to become all too familiar with parcel maps. If you take the subway into work, then perhaps a linear cartogram comes to mind first. If you are really a map geek like us, you might remember a thematic map portraying statistical data that you saw printed in a textbook or newspaper article.
 
 While you might mention these traditional, static map examples if pressed, it is likely that you also would name examples from a new class of maps born from the availability of cheap personal computing technology and a pervasive digitally-native transfer mechanism (i.e., the Internet). These two developments – popularly referred to as the *Digital Revolution* – have turned Cartography on its head, both as a professional practice and as an academic discipline. The trickle down influence of the Digital Revolution over the past 20-25 years acted as the primary impetus for a generation of ground-breaking research and development on animated, multi-scale, on-demand, and real-time maps, all of which were either impossible or prohibitively difficult to create previously. In short, it is the Digital Revolution that is at the heart of Cartography 2.0.
@@ -25,8 +23,7 @@ It can be argued that no single development of the Digital Revolution has had a 
 These interactive examples are a indication of what I think is a shifting conceptualization of the map. In his classic text *How Maps Work*, Alan MacEachren (1995) defined the map using radial categorization (Figure 1a). The complete map space was organized along two axes, termed motivating characteristics: (1) degree of abstraction (image versus diagram) and (2) map scale (atom versus universe). All existing maps can be placed somewhere in this space, with those falling closest to the center of the radial categorization acting as the prototypical example that most quickly comes to mind when thinking of a map. As MacEachren'http://web.archive.orgs radial categorization was offered very early in the Digital Revolution, his focus was primarily on categorizing static maps; his selection of degree of abstraction and map space as the primary motivating characteristics are a reflection of this focus.
 
   
-  
-(click to see big)
+![Roth Green Circles](cartography2/images/MapInteractionOverview/Roth_greencircles.jpg)   
 
 ***Figure 1: ****The shifting conceptualization of the map. (a) Defining the map using radial categorization, redrawn from **MacEachren (1995: 161)**, using the motivating characteristics of degree of abstraction and map scale. (b) A radial categorization of 21st century maps, using the motivating characteristics of web dissemination and cartographic interaction. Today'http://web.archive.orgs prototypical map is one that provides at least a medium amount of cartographic interaction.  
 *  
@@ -37,7 +34,7 @@ I offer an alternative radial categorization of the map using two different moti
 
 Although many conclusions can be inferred from the Figure 1 comparison, nothing is more evident than the growing centrality of at least a medium degree of cartographic interaction in the conceptualization of the map – it can be expected that this will become only truer as the central prototype continues to shift. Thus, a greater emphasis within Cartography in needed moving forward in order to better understanding the nature of cartographic interactions and how these interactions can be best implemented by interfaces.
 
-A Brief History Lesson  
+### A Brief History Lesson  
 
 
   
@@ -51,28 +48,31 @@ The third early influence on geovisualization was the call in the mid-1980s for 
 
 One of the earliest frameworks integrating Cartography, EDA, and ViSC into what would now be called geovisualization was offered by David DiBiase (1990). In his ***swoopy*** diagram (Figure 2), DiBiase identified four stages of scientific research:
 
-(1) *Exploration* - Examining the data from multiple perspectives to identify research questions and to generate research hypotheses
+1. *Exploration* - Examining the data from multiple perspectives to identify research questions and to generate research hypotheses
 
-(2) *Confirmation* - Formally testing hypotheses to answer research questions
+2. *Confirmation* - Formally testing hypotheses to answer research questions
 
-(3) *Synthesis** *- Summarizing and integrating insights generated from multiple iterations of the exploratory and confirmation stages to develop a final solution to the research questions
+3. *Synthesis** *- Summarizing and integrating insights generated from multiple iterations of the exploratory and confirmation stages to develop a final solution to the research questions
 
-(4) *Presentation* - Communicating the uncovered solution to a wider audience
+4. *Presentation* - Communicating the uncovered solution to a wider audience
 
 The genius of the swoopy diagram was that DiBiase was able to integrate existing science workflows into a clear overall picture - and one that included cartographers throughout the process. Prior to this time, Cartography and other graphic design fields were focused upon visual communication (synthesis %2B presentation) of a known fact to a wider audience. DiBiase coupled this traditional focus with the ViSC call for the use of representations to facilitate visual thinking, or the use of visuals for exploration and reasoning to the end of uncovering facts that were previously unknown. Further, within this realm of private visual thinking, DiBiase located both traditional statistical methods used for hypothesis confirmation and the new suite of techniques developed for exploratory hypothesis generation. As the scientist moves from exploration to presentation, the amount of different possible map representations decreases (or 'http://web.archive.orgswoops'http://web.archive.org) from infinity to one.
 
+![Swoopy Diagram](cartography2/images/MapInteractionOverview/figure2.jpg)   
   
 ***Figure 2:*** *The swoopy diagram. **DiBiase (1990)** integrated Cartography, EDA, and ViSC into a single scientific workflow, including four stages: exploration, confirmation, synthesis, and presentation. As the scientist moves from exploration to presentation, the amount of different possible map representations decreases (or 'http://web.archive.orgswoops'http://web.archive.org) from infinity to one.*
 
 The swoopy diagram was used as the input for perhaps the most important and overarching cartographic frameworks currently in place: Alan MacEachren'http://web.archive.orgs (1994) *Cartography*3. Cartography3 (Figure 3) summarizes all possible map uses according to three axes: (1) revealing unknowns versus presenting knowns, (2) private map use versus public map use, and (3) high versus low human-map interaction. Through the center of the cube is DiBiase'http://web.archive.orgs swoopy, illustrating the change from visualization (i.e., infinite possible views) to communication (i.e., one optimal view). As mentioned previously, the focus in Cartography was upon communication rather than visualization prior to Cartography3, meaning that cartographers had a firm grasp on the best ways to present geographic information. What Cartography3 did do was suggest the best way to support visualization: through high levels of human-map interaction. In order to learn something new through maps (the primary goal of science), rather than just communication something that is already known, **cartographic interaction is key**. Such exploration of numerous, user-defined, and ephemeral map representations reveals characteristics and patterns in the dataset that were previously unknown, leading to the generation of hypotheses and new ideas. Thus, the basic premise of exploratory geovisualization is that “insight is formed through interaction” (Roberts, 2008: 26).
 
-  
+![Two Versions of Cartography](cartography2/images/MapInteractionOverview/figure3a.jpg)   
+![Two Versions of Cartography](cartography2/images/MapInteractionOverview/figure3b.jpg)   
+
 
 
 ***Figure 3:**** Two versions of Cartography*3*. (a) The original offering showing the continuum between visualization (i.e., infinite possible views) and communication (i.e., one optimal view) (MacEachren 1994). (b) A version directly plotting the swoopy diagram inside of the Cartography*3* (note: confirmation is renamed as analyze) (MacEachren & Kraak 1997). **Source**.*  
 
 
-Conceptualizing Interaction  
+### Conceptualizing Interaction  
 
 
   
@@ -82,6 +82,7 @@ Undoubtedly, however, the Digital Revolution has increased (or at least the pote
 
 While the above definition is a workable, catch-all view of interaction, there are multiple granularities at which interaction can be conceptualized; Figure 4 summarizes these levels
 
+![Levels of Cartographic Interaction](cartography2/images/MapInteractionOverview/figure4.jpg)   
   
 ***Figure 4: Levels of Cartographic Interaction.**** Cartographic Interaction can be conceptualized according to at least five levels: (1) goals, (2) objectives, (3) operators, (4) user inputs, and (5) operands.*  
 
