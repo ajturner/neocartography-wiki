@@ -12,22 +12,22 @@ There are two sections to this project: a Wiki of articles, best practices, and 
 
 ## Sections
 
-This repository has also captured the now defunct [Cartography2 website](Cartography2). It was the beginning of a series of articles on interactive cartography that will continue and grow here.
+This repository has also captured the now defunct [Cartography2 website](wiki/Cartography2). It was the beginning of a series of articles on interactive cartography that will continue and grow here.
 
 ### Interface Components
 
-* [Animation](OverviewAnimated)
- * [Conceptualizing Time](TimeAnimation)
- * [History of Animated Maps](HistoryMapAnimation)
- * [Time on Static Maps](RepresentingTimeStatic)
+* [Animation](wiki/OverviewAnimated)
+ * [Conceptualizing Time](wiki/TimeAnimation)
+ * [History of Animated Maps](wiki/HistoryMapAnimation)
+ * [Time on Static Maps](wiki/RepresentingTimeStatic)
 * 3D/Virtual Globes
-* [Infowindows](DataProbing)
-* [Cartographic Text](CartographicText)
+* [Infowindows](wiki/DataProbing)
+* [Cartographic Text](wiki/CartographicText)
 * Clusters
-* [Coordinated Views](CoordinatedViews)
-* [Geospatial Uncertainty](GeospatialUncertainty)
-* [Interactive UI](OverviewUI)
- * [Map Interaction Overview](MapInteractionOverview)
+* [Coordinated Views](wiki/CoordinatedViews)
+* [Geospatial Uncertainty](wiki/GeospatialUncertainty)
+* [Interactive UI](wiki/OverviewUI)
+ * [Map Interaction Overview](wiki/MapInteractionOverview)
 * Zoom bars
 
 ### Device Affordance
