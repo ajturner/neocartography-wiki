@@ -16,7 +16,7 @@ Maps are Geographic Caricatures
 
 My basic advice in cartography is "Know at least a little about the thing you are trying to represent." Why? Because maps are [caricatures][7] of geographic data in which we must decide (regardless of whether the map is static or animated) **what are the most salient features that need to be emphasized**? Caricatures, while often seen as silly or amusing, are in fact brilliant forms of data filtering and reduction: The artist sees that which makes someone unique and instantly recognizable and eliminates other non-distinguishing data or features so that at a glance (and usually with a chuckle), we recognize the person. What's even more remarkable is that this is often done with extreme economy of linework; a few strokes, as in the case of the famous Alfred Hitchcock silhouette below, are all that are needed. This is a remarkably efficient use of ink, and a hallmark of great design.
 
-![alfred-hitchcock-silueta](cartography2/images/alfred-hitchcock-silueta.jpg)
+![alfred-hitchcock-silueta](cartography2/images/ConceptualizingTime/alfred-hitchcock-silueta.jpg)
 
 
   
@@ -32,13 +32,13 @@ Reality? What Reality?
 
 Another insight that is somewhat shocking is that cartography is not about realism. Thematic mapping, and even reference mapping, isn't the same a photograph. If you want to take photos to cover a news story on energy consumption, you might capture an image of cars on a highway. But on a map we might use giant colored circles covering the land and viewed from far off in space (e.g., looking staight down). Below is a [map of energy consumption and federal funding][11], and despite the fact that the world isn't actually, literally covered with giant colored circles, this map nonetheless is a succinct summary of a complex social phenomenon.
 
-![](cartography2/images/arra_fundingmap1-1024x682.jpg)
+![](cartography2/images/ConceptualizingTime/arra_fundingmap1-1024x682.jpg)
 
 
   
 Even icons used in referencing mapping are rarely as literal as a photograph; A popular way to indicate a park on a tourist map is a tepee tent although perhaps only a handful of parks actually have tepees, and of course, parks are much more than just tepees (semioticiains call these "associative map symbols"). Moreover, this tepee is extremely stylized and uses only 3 solid lines: As a result it can be shrunk way down in size and remain legible—a key requirement of references maps.  
   
-![](cartography2/images/parkIcons.jpg)
+![](cartography2/images/ConceptualizingTime/parkIcons.jpg)
   
 **TAKE-HOME MESSAGE: **This means that our job as cartographers is not to simply photograph the world or to blindly mimic it. Rather, it is to create a visual abstraction that efficiently, and as accurately as possible, represents some aspect of the world. In order to do that, we need to know what it is that we're trying to capture in that representation in the first place. Hence our brief detour through an [ontological][14] discussion of the nature of time and geographic process. I know my description of the map-making process isn't a very [Brian Harley][15]-esque or [Denis Wood][16]-esque definition of mapping (red flags: "accurate", "real world") but it's where I'm coming from (i.e., a place with paying clients). Your mileage may vary.
 
@@ -46,7 +46,7 @@ Making Space for Time on our Maps
 
 Maps have always shown time. The problem was that time often wasn't explicit nor central to the maps purpose. As a result, cartographers have tended to treat time as an attribute rather than as a field. In other words, many static maps if they make mention of time add it simply as a date (e.g., "Data collected in 2009") or as a simple time-stamp of events (e.g., a battle occured here in this year). The important thing is that time is not a structuring dimension, on par with space, but is rather an attribute attached to locations. As a result, fewer methods have been developed for depicting time than space and fewer “rules” have been generated to guide cartographers in their use of temporal information. 
 
-![](cartography2/images/lakeshore_Animation.jpg)
+![](cartography2/images/ConceptualizingTime/lakeshore_Animation.jpg)
   
 Fortunately, with the advent of Geographic Visualization and computer-based animated maps (and more recently interactive web-based maps), time has become both easier to represent and more central to the map-making process. For example, the "time machine" function of the [UW Lakeshore Preserve Map][18] (above) allows us to peer into the past using successively older air photos to **peel back the layers of time** and answer the question, "What used to be here before they built this?" 
 

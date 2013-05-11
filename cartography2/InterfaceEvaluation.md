@@ -86,7 +86,7 @@ Before I introduce numerous evaluation methods that have been developed for exam
 
 Usability-based evaluation examines each of these five components in order to provide developers with recommendations on how to optimize them.
 
-[![figure2_usabilityGov][33]](cartography2/images/InterfaceEvaluation/figure2_usabilityGov][33].jpg)  
+![figure2_usabilityGov](cartography2/images/InterfaceEvaluation/figure2_usabilityGov][33].jpg)  
 
 
 ***Figure 2: ****[Usability.gov][31]**. If you are interested in learning more about usability engineering, I recommend checking out this site.*
@@ -97,7 +97,7 @@ In practice, usability and utility typically do not play nice. In order to make 
 
 To help answer this question, let's take a look at an example comparing two interfaces designed for multimedia entertainment. The iPod shuffle (Figure 3) is the archetype of simplicity and an applauded success story in interface design. Thinking about the recommendations of [Usability.gov][31], the iPod shuffle is easy to learn how to use, provides an efficient interface for playing audio, is easy to remember how to use over time, generates only a small amount of non-fatal usability errors, and is incredibly well-liked (as demonstrated by the millions sold).
 
-[![figure3_ipod][35]](cartography2/images/InterfaceEvaluation/figure3_ipod][35].jpg)
+![figure3_ipod](cartography2/images/InterfaceEvaluation/figure3_ipod][35].jpg)
 
 ***Figure 3: ****The latest generation of **[iPod shuffle][35]**.*  
 
