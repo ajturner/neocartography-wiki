@@ -16,7 +16,7 @@ Maps are Geographic Caricatures
 
 My basic advice in cartography is "Know at least a little about the thing you are trying to represent." Why? Because maps are [caricatures][7] of geographic data in which we must decide (regardless of whether the map is static or animated) **what are the most salient features that need to be emphasized**? Caricatures, while often seen as silly or amusing, are in fact brilliant forms of data filtering and reduction: The artist sees that which makes someone unique and instantly recognizable and eliminates other non-distinguishing data or features so that at a glance (and usually with a chuckle), we recognize the person. What's even more remarkable is that this is often done with extreme economy of linework; a few strokes, as in the case of the famous Alfred Hitchcock silhouette below, are all that are needed. This is a remarkably efficient use of ink, and a hallmark of great design.
 
-![alfred-hitchcock-silueta](wiki/cartography2/images/alfred-hitchcock-silueta.jpg)
+![alfred-hitchcock-silueta](cartography2/images/alfred-hitchcock-silueta.jpg)
 
 
   
