@@ -30,7 +30,7 @@ Maps work because they are models of reality, not reality itself. A map must nec
 Unfortunately (and what your financial planners may not have told you…) there is an obvious downside to all models: they are not reality. The double-edged sword of abstraction removes geospatial information from the display that may be requisite for a clear and comprehensive understanding of geographic phenomena and processes. Tasks employing the representation or decisions informed by the representation can no longer be accomplished with complete certainty. I call this (in a much more academic-y way than Carroll) the *cartographic problematic *(Figure 1): in order to create an abstraction of reality that makes complex geospatial information understandable and usable, uncertainty is introduced into the representation (and into the knowledge constructed from the representation) as a necessary compromise. Uncertainty is therefore inherent to all geospatial information and thus all representations thereof. No map is perfect.
 
   
-![figure1][9]
+![figure1](cartography2/images/GeospatialUncertainty/figure1.jpg)
 
 ***Figure 1: ****The Cartographic Problematic. In order to create an abstraction of reality that makes complex geospatial information understandable and usable, uncertainty is introduced into the representation (and into the knowledge constructed from the representation) as a necessary compromise.  
 *  
@@ -58,7 +58,7 @@ When explaining the concept of uncertainty filters, I often make slight changes 
 
 
   
-![figure2][14]
+![figure2](cartography2/images/GeospatialUncertainty/figure2.jpg)
 
 ***Figure 2:**** ****Uncertainty Filters.**** Between each step in the analytical process, there is an uncertainty filter that acts to remove direct correspondence between phenomenon and the user's understanding of the phenomenon.*
 
@@ -74,7 +74,7 @@ Most scholars also generally agree that the precision of the information is an i
 
 Accuracy and precision are the two most commonly reported measures of uncertainty. This is perhaps due to the relative ease of generating quantitative metrics for these categories. Figure 3 illustrates the difference between the two categories of uncertainty using the popular dart board example.
 
-![figure3][15]  
+![figure3](cartography2/images/GeospatialUncertainty/figure3.jpg)  
 ***Figure 3: ****Accurate versus Precise*  
 
 
@@ -82,7 +82,7 @@ Finally, many uncertainties are derived from the general trustworthiness of the 
 
 An excellent review of each category is provided by [Alan MacEachren, Anthony Robinson, and colleagues (2005)][16]. Table 1 lists the definitions provided by MacEachren et al. (2005) and provides an example of each category in the context of floodplain map as offered in [Roth (2009)][17].
 
-![Screen shot 2009-09-23 at 12.51.10 PM][18]
+![Screen shot 2009-09-23 at 12.51.10 PM](cartography2/images/GeospatialUncertainty/Screen shot 2009-09-23 at 12.51.10 PM.jpg)
 
 ***Table 1: ****Uncertainty Categories. The MacEachren et al. (2005) typology includes nine categories: (1) accuracy/error, (2) completeness, (3) consistency, (4) credibility, (5) currency, (6) interrelatedness, (7) lineage, (8) precision/resolution, and (9) subjectivity. Examples in the domain of floodplain mapping are given, as offered in Roth (2009).*
 
