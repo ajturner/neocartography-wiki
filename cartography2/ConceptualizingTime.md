@@ -46,9 +46,7 @@ Making Space for Time on our Maps
 
 Maps have always shown time. The problem was that time often wasn't explicit nor central to the maps purpose. As a result, cartographers have tended to treat time as an attribute rather than as a field. In other words, many static maps if they make mention of time add it simply as a date (e.g., "Data collected in 2009") or as a simple time-stamp of events (e.g., a battle occured here in this year). The important thing is that time is not a structuring dimension, on par with space, but is rather an attribute attached to locations. As a result, fewer methods have been developed for depicting time than space and fewer “rules” have been generated to guide cartographers in their use of temporal information. 
 
-![](cartography2/images/lakeshore_Animation.png)
-
-
+![](cartography2/images/lakeshore_Animation.jpg)
   
 Fortunately, with the advent of Geographic Visualization and computer-based animated maps (and more recently interactive web-based maps), time has become both easier to represent and more central to the map-making process. For example, the "time machine" function of the [UW Lakeshore Preserve Map][18] (above) allows us to peer into the past using successively older air photos to **peel back the layers of time** and answer the question, "What used to be here before they built this?" 
 
