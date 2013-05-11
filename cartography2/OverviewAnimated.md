@@ -31,7 +31,7 @@ generate new insights into geographic processes that had been previously unrecog
 The need for animated maps is further underscored by the recent and unparalleled explosion of digital geospatial data—
 
 much of it time-series data. Fortunately, the simultaneous and rapid development of the World Wide Web and affordable, high-performance personal computers (and mobile devices) has made animated maps far easier to make, distribute, and view. As a result, animated maps have gone from being painstakingly crafted novelties to commonplace digital documents. Making animated maps interactive further extends their utility and allows the reader to “go into the map” and (in theory) change the map to suit their needs. The amount of interactivity, or control, the reader has over the animated map has steadily increased over time as technology permits (Figure 1), and ranges from none (e.g., weather map on TV) to near total (e.g., geovisualization system for epidemiologists).  
-![Figure1][3]  
+![Figure1](cartography2/images/OverviewAnimated/Figure1.jpg)  
 Figure 1: The history of animated maps and what users can do with them is in large part dictated by the storage medium / technology available at the time: celluloid film, VCR, CD-ROM, and Web. Like many other areas of GIScience, the move to computers in the 1980s allowed for much more interactive and versatile animated maps, while a decade later the migration to Web-based systems potentially gives users the ability to make animated maps on-demand (from distributed and/or real-time data).
 
   
@@ -56,7 +56,7 @@ Related Material
 * * *
 
   
-[![dreadful][8]][8]  
+[![dreadful][8]](cartography2/images/OverviewAnimated/dreadful][8].jpg)  
 [United States Precipitation Anomalies: 1900-1988][8]  
 
 
@@ -71,7 +71,7 @@ Source:&nbsp;NASA&nbsp;Goddard Space Flight Center [Scientific Visualization Stu
 * * *
 
   
-[![sst][11]][11]  
+[![sst][11]](cartography2/images/OverviewAnimated/sst][11].jpg)  
 [MODIS Sea Surface Temperature Highlighting the Gulf Stream (2002 to 2006)][11]&nbsp;  
 
 
@@ -86,7 +86,7 @@ Source: NASA&nbsp;Goddard Space Flight Center&nbsp;[Scientific Visualization Stu
 * * *
 
   
-![Tobler][14]  
+![Tobler](cartography2/images/OverviewAnimated/Tobler.jpg)  
 Urban Growth Model and Animation, Waldo Tobler (1970)  
 
 
@@ -96,7 +96,7 @@ In 1970 [Waldo Tobler][15] created and published this oblique-perspective 3D ani
 * * *
 
   
-[![streamVIz][19]][19]  
+[![streamVIz][19]](cartography2/images/OverviewAnimated/streamVIz][19].jpg)  
 Watch a [Narrated Introduction][19] &nbsp;  
 Direct Link: [Flood! On the upper Missisippi and Missouri Rivers][20]  
 
@@ -110,7 +110,7 @@ Source:&nbsp;[Matt Bloch][21]&nbsp;(2004)
 * * *
 
   
-![BallotBank2][22]
+![BallotBank2](cartography2/images/OverviewAnimated/BallotBank2.jpg)
 
   
 Ballotbank is a very rare example of a map that allows users to adjust the "temporal granularity" of the animation so that the amount of time that each frame represents (the "thickness" of the temporal slices) is easily adjustable. Why is this a big deal? Because (1) there is no obvious best temporal granularity for most datasets—Do the data make more sense if we use 15-minute time slices or 60-minute? Or maybe we should look at it as weekly slices?—and (2) what we see in our animated maps is largely a product of how the data have been aggregated, both spatially and temporally. Unfortunately, for most animated maps the decision to use a single temporal granularity has enormous implications for what we see in these maps—how change is depicted—and, thus, what we think we know about the world. For example, if I had a noisy dataset that was drowning out a larger trend, I would use thicker temporal slices (or a moving average) for suppression of noise.&nbsp;
@@ -123,7 +123,7 @@ Source: [David Heyman][23] (2006)
 * * *
 
   
-[![aids2][25]][25]  
+[![aids2][25]](cartography2/images/OverviewAnimated/aids2][25].jpg)  
 [New AIDS Cases 1993-2000][25]  
 
 
@@ -140,7 +140,7 @@ Source:&nbsp;[Mark Harrower][27]&nbsp;(2001)
 * * *
 
   
-[![Freedom_Atlas][29]][29]  
+[![Freedom_Atlas][29]](cartography2/images/OverviewAnimated/Freedom_Atlas][29].jpg)  
 [World Freedom Atlas][29]  
 
 
@@ -153,7 +153,7 @@ Source: [Zachary Forest Johnson][30]&nbsp;(2007)
 * * *
 
   
-[![LakeMichiga][32]][32]  
+[![LakeMichiga][32]](cartography2/images/OverviewAnimated/LakeMichiga][32].jpg)  
 [Lake Michigan Currents, 1998][32]  
 
 
@@ -168,7 +168,7 @@ Source:&nbsp;[D. Schwab and D. Beletsky][33] (NOAA)&nbsp;(1998)
 * * *
 
   
-[![Acevedo_SFBay][35]][35]  
+[![Acevedo_SFBay][35]](cartography2/images/OverviewAnimated/Acevedo_SFBay][35].jpg)  
 [Time-series Animation Techniques for Visualizing Urban Growth][35]  
 
 
@@ -183,7 +183,7 @@ Source: [William Acevedo and Penny Masuoka][36]&nbsp;(1997)
 * * *
 
   
-![ESV][37]  
+![ESV](cartography2/images/OverviewAnimated/ESV.jpg)  
 Watch a [Narrated Introduction][38] to the Earth Systems Visualizer (ESV)  
 
 
@@ -196,7 +196,7 @@ Source:&nbsp;[Mark Harrower][39] (1998)&nbsp;
 * * *
 
   
-[![Atlanta_FLight][41]][41]  
+[![Atlanta_FLight][41]](cartography2/images/OverviewAnimated/Atlanta_FLight][41].jpg)  
 [Animated Air Traffic Atlas (Atlanta Hub)][41]  
 
 
@@ -211,7 +211,7 @@ Source: [Michael Peterson][43]&nbsp;(2004)
 * * *
 
   
-[![HealthVIz2][45]][45]  
+[![HealthVIz2][45]](cartography2/images/OverviewAnimated/HealthVIz2][45].jpg)  
 [Slideshow Introduction of HealthVis][45] (to run Healthviz, see link below)  
 
 
@@ -226,7 +226,7 @@ Source: [MacEachren, Howard, Boscoe][46]&nbsp;(1996)
 * * *
 
   
-[![airlineDisasters][48]][48]  
+[![airlineDisasters][48]](cartography2/images/OverviewAnimated/airlineDisasters][48].jpg)  
 Watch a [Narrated Introduction][48]  
 Direct Link: [Commerical Air Disasters 1950-2003][49]  
 
@@ -242,7 +242,7 @@ Source: [Bratz, Stephenson, and Nienow][50]&nbsp;(2004)
 * * *
 
   
-[![SeaIce][52]][52]  
+[![SeaIce][52]](cartography2/images/OverviewAnimated/SeaIce][52].jpg)  
 [A Tour of the Cryosphere][52]  
 
 
@@ -263,7 +263,7 @@ Source:&nbsp;NASA&nbsp;Goddard Space Flight Center&nbsp;[Scientific Visualizatio
 * * *
 
   
-[![Bloch_Lab1][56]][56]  
+[![Bloch_Lab1][56]](cartography2/images/OverviewAnimated/Bloch_Lab1][56].jpg)  
 Watch a [Narrated Introduction][56]  
 Direct Link: [Evening flights from Madison, Wisconsin][57]  
 
@@ -277,7 +277,7 @@ Source:&nbsp;[Matt Bloch][21]&nbsp;(2004)
 * * *
 
   
-[![Flyover_Labels][59]][59]  
+[![Flyover_Labels][59]](cartography2/images/OverviewAnimated/Flyover_Labels][59].jpg)  
 [Flyover Map with 3D Labeling][59]  
 
 
@@ -294,7 +294,7 @@ Source: [Harrower and Sheesley][60] (PDF 2007)
 * * *
 
   
-[![IIPS_lowres][62]][62]  
+[![IIPS_lowres][62]](cartography2/images/OverviewAnimated/IIPS_lowres][62].jpg)  
 [IBM's DeepThunder: 3D meteorological animation][62]  
 
 
@@ -307,7 +307,7 @@ Source: [Christidis and Treinish][63]&nbsp;(1996)
 * * *
 
   
-[![Monmonier][65]][65]  
+[![Monmonier][65]](cartography2/images/OverviewAnimated/Monmonier][65].jpg)  
 [US Daily Newspaper Production in the 20th Century][65]  
 
 
@@ -320,7 +320,7 @@ Source: [Mark Monmonier][66]&nbsp;(1990)
 * * *
 
   
-![boston][67]  
+![boston](cartography2/images/OverviewAnimated/boston.jpg)  
 [Microsoft's Virtual Earth][68] (click '3D' tab once it loads, won't work in the Mac OS)  
 
 

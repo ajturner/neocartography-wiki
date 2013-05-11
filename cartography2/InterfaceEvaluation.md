@@ -27,7 +27,7 @@ Focusing on the iterative nature of user-centered design, [Anthony Robinson and 
 
 Interface Evaluation Recommendation #2: Solicit user feedback early in the project...like, even before you begin interface design.
 
-![figure1_userCentered][18]
+![figure1_userCentered](cartography2/images/InterfaceEvaluation/figure1_userCentered.jpg)
 
 ***Figure 1: ****The User-Centered Design Process. A six-stage UI design workflow that follows the user-centered philosophy. Image derived from **[Robinson et al. (2005: 245)][16]**.*
 
@@ -86,7 +86,7 @@ Before I introduce numerous evaluation methods that have been developed for exam
 
 Usability-based evaluation examines each of these five components in order to provide developers with recommendations on how to optimize them.
 
-[![figure2_usabilityGov][33]][33]  
+[![figure2_usabilityGov][33]](cartography2/images/InterfaceEvaluation/figure2_usabilityGov][33].jpg)  
 
 
 ***Figure 2: ****[Usability.gov][31]**. If you are interested in learning more about usability engineering, I recommend checking out this site.*
@@ -97,7 +97,7 @@ In practice, usability and utility typically do not play nice. In order to make 
 
 To help answer this question, let's take a look at an example comparing two interfaces designed for multimedia entertainment. The iPod shuffle (Figure 3) is the archetype of simplicity and an applauded success story in interface design. Thinking about the recommendations of [Usability.gov][31], the iPod shuffle is easy to learn how to use, provides an efficient interface for playing audio, is easy to remember how to use over time, generates only a small amount of non-fatal usability errors, and is incredibly well-liked (as demonstrated by the millions sold).
 
-[![figure3_ipod][35]][35]
+[![figure3_ipod][35]](cartography2/images/InterfaceEvaluation/figure3_ipod][35].jpg)
 
 ***Figure 3: ****The latest generation of **[iPod shuffle][35]**.*  
 
@@ -105,7 +105,7 @@ To help answer this question, let's take a look at an example comparing two inte
   
 On the other hand, the 'RothPod shuffle' (a.k.a., my living room entertainment center – Figure 4) is the archetype of complexity and operates upon an absurd web of crossed wires (and crossed fingers). The 'RothPod shuffle' exhibits a steep learning curve that never really flattens, requires the usage of a half dozen remote controls, makes return users look like Guy Pearce in *Memento*, elicits many more erroneous entries than correct ones, and has been rejected as unusable by a great number of roommates and girlfriends. Thus, the iPod shuffle appears to be a much more successful interface, at least from a usability standpoint.
 
-![figure4_rothpod][36]  
+![figure4_rothpod](cartography2/images/InterfaceEvaluation/figure4_rothpod.jpg)  
 
 
 ***Figure 4: ****My living room entertainment center, otherwise known as the 'RothPod shuffle' (not pictured: slob on couch).*

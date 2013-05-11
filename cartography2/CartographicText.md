@@ -14,7 +14,7 @@ Cartographic text can also serve aesthetic, or expressive purposes that impact t
 
 [TypeBrewer][4] is one place for exploring the expressive nature of map text, allowing users to see the effects of a range of typographic alternatives, including fonts and font pairings, on map ‘look and feel’.  
   
-![ngs_text_400][5]  
+![ngs_text_400](cartography2/images/CartographicText/ngs_text_400.jpg)  
 Besides its many functional purposes, the text on this NGS reference map helps define its cartographic identity.  
 
 
@@ -31,7 +31,7 @@ Below, I'll look at just one of the practical design considerations related to t
 
 Resolution is what determines how much detail we can see on screen. As the physical size of pixels gets smaller (and resolution increases), our ability to see details improves. For example, it’s no surprise that text looks clearer in high-definition than on a standard television display. The major type selection consideration here is legibility. Currently, on most computer screens we’re typically dealing with a resolution of between just 90 and 110 pixels per inch. That’s pretty low compared to what we can get out of even a common desktop inkjet printer, which can lay down ink between 300 and 600 dots per inch. Compared to the printed page, when fonts are viewed on screen we loose some of the details that make them legible and easy to read. Small finishing elements like serifs and ears can degrade, interior spaces like counters, apertures, eyes, and bowls can change shape or collapse, and stems and strokes can loose their intended weight, contrast and curvature. This is especially true at the small type sizes that cartographers often must deal with when lettering maps.
 
-![letterformDiagram_cart2_v3][8]  
+![letterformDiagram_cart2_v3](cartography2/images/CartographicText/letterformdiagram_cart2_v3-3-2.jpg)  
 Many details in the anatomy of a font are particularly sensitive to display at small sizes on screen  
 
 
@@ -40,12 +40,12 @@ The common solution for rendering fonts on screen is called anti-aliasing. Basic
   
 
 
-![antiAliasing_v2][9]  
+![antiAliasing_v2](cartography2/images/CartographicText/antiAliasing_v2.jpg)  
 
 
 Anti-aliasing can produce great results at larger font sizes, but tends to&nbsp;cause fonts to look clumpy and blurry&nbsp;at small sizes. Some of the software that cartographers are familiar with offer a lot of control in this area, which in some cases can help mitigate this problem. For example, in addition to several nice defaults (e.g., anti-aliasing for "readability"), Adobe Flash offers advanced, customizable anti-aliasing options for font sharpness and thickness, as shown in this [demo][10] and source [code][11]. You'll find a similar suite of options in Adobe Photoshop that can help crisp or sharpen small text.
 
-![psd_antiAliasing][12]  
+![psd_antiAliasing](cartography2/images/CartographicText/psd_antialiasing.jpg)  
 The range of anti-aliasing defaults in Photoshop. Anti-aliasing tends to hurt more than help below around 9 points.  
 
 
@@ -54,7 +54,7 @@ The range of anti-aliasing defaults in Photoshop. Anti-aliasing tends to hurt mo
 Given the trouble of blurriness with small anti-aliased text, why not consider removing anti-aliasing, or going with a pixel (bitmap) font as an alternative? True pixel fonts are designed by arranging pixels, not vectors, into letterforms. They're intended to work without anti-aliasing at very small sizes—8 points and lower. Unfortunately, by nature, they only work at&nbsp;fixed sizes (and then at multiples of their original size) and along horizontal or vertical rows.&nbsp;So, as much as I like them for some purposes (e.g., small interface text), pixel fonts don't scale well across small size ranges, nor can they be rotated and curved along paths. The following example shows a pixel font ([Unibody 8][13]) in action on a map:  
 
 
-![bitmapText][14]  
+![bitmapText](cartography2/images/CartographicText/bitmaptext.jpg)  
 The Pixel City label (8 pt size) works well because it is oriented horizontally. The other labels (8 and 16 pt sizes) break down along curved paths.  
 
 
@@ -65,11 +65,13 @@ As a general rule, we hesitate to go below 10 points as the minimum point size f
 Selecting a Type Family for the Screen  
 Fortunately, there are a few fonts pre-installed on our operating systems designed specifically to meet the challenges of the computer screen: [Georgia][15], [Trebuchet MS][16], and [Verdana][17].
 
-![screenFonts_2][18]
+![screenFonts_2](cartography2/images/CartographicText/screenfonts_2.jpg)
 
 What makes the above fonts ideal candidates for the screen? And, what are the main things to consider when selecting fonts for maps that will appear on screen so that when the opportunity arises, we can branch out beyond these defaults? Given an exponential increase in the number of fonts readily (and often freely) available for immediate use, this is an important skill that can save time and effort as well as improve the quality of map lettering.
 
-*   Width and Spacing.&nbsp; Wide letterforms and generous letter spacing, like in Verdana (see above example), can help prevent interior spaces (i.e., counters) in letters from collapsing and letters from colliding, especially at small sizes. However, both come at the expense of overall text width, which can be a turn-off in high-density labeling scenarios. While adjusting letter spacing, also known as "tracking", has its place on maps (e.g., to fit labels to areas or lower them in the overall visual hierarchy), choosing a structurally more narrow type family is preferred to negatively spacing or scaling text, both of which should be used sparingly, if at all. Note that some fonts, like Arial, have a “narrow” variant with condensed proportions. These can appear smaller&nbsp;than their “regular” counterparts&nbsp;despite similar or even identical x-heights, so care should be taken when using them on the map.![narrowFonts_2][19]
+*   Width and Spacing.&nbsp; Wide letterforms and generous letter spacing, like in Verdana (see above example), can help prevent interior spaces (i.e., counters) in letters from collapsing and letters from colliding, especially at small sizes. However, both come at the expense of overall text width, which can be a turn-off in high-density labeling scenarios. While adjusting letter spacing, also known as "tracking", has its place on maps (e.g., to fit labels to areas or lower them in the overall visual hierarchy), choosing a structurally more narrow type family is preferred to negatively spacing or scaling text, both of which should be used sparingly, if at all. Note that some fonts, like Arial, have a “narrow” variant with condensed proportions. These can appear smaller&nbsp;than their “regular” counterparts&nbsp;despite similar or even identical x-heights, so care should be taken when using them on the map.
+
+![narrowFonts_2](cartography2/images/CartographicText/narrowfonts_2.jpg)
 
 
 
@@ -84,16 +86,16 @@ What makes the above fonts ideal candidates for the screen? And, what are the ma
 ## Case Study in Selecting a Map Font
 
 Despite the vast number of fonts available to choose from, we’ve found that only a few serve our purposes well and therefore we tend to return to them over and over again. Officina (both [Officina Sans][21]and [Officina Serif][22])&nbsp;is one such font (a font family, really) that we've found to be highly versatile, employing it on everything from map user interfaces to printed reference maps. It was&nbsp;originally designed by Erik Spiekermann as a robust font for business correspondence, including memos, faxes, photocopies, and other documents output at course resolutions. A number of design characteristics, drawn from the list above, make it an ideal candidate for maps appearing on screen. Officina&nbsp;has a tall x-height, wide&nbsp;apertures&nbsp;and large&nbsp;counters, as seen in the letters 'c', 'a', and 'e', for example.&nbsp;Serifs&nbsp;are blocky and square in shape, and strokes are consistently strong, having low contrast.&nbsp;By design, Officina is also a relatively narrow type family (considerably narrower than Trebuchet MS but not as condensed as Arial Narrow, for example), which makes it effective in high density labeling scenarios.
-![officina][23]  
+![officina](cartography2/images/CartographicText/officina.jpg)  
 Sample of the Officina font family
 
-![UWarb_mapUI][24]  
+![UWarb_mapUI](cartography2/images/CartographicText/uwarb_mapui.jpg)  
 Besides the tab titles (e.g., "Go"), Officina Sans is used for all of the interface text on the UW Arboretum interactive map
 
-![ARRAfunding_new][25]  
+![ARRAfunding_new](cartography2/images/CartographicText/arrafunding_new.jpg)  
 Officina Sans and Officina Serif are used in all of the explanatory text on this ARRA funding map
 
-![bestWestern_new][26]  
+![bestWestern_new](cartography2/images/CartographicText/bestwestern_new.jpg)  
 Officina Sans and Officina Serif have been employed for all of the labeling on this Best Western Hotel visitor's map  
 
 

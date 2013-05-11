@@ -26,7 +26,7 @@ Although cartographers have been interested in the potential of animated maps fo
 
 There are numerous examples of animated maps and I apologize if this history does not include specific (or beloved) examples. Rather, we'll use a framework for thinking about the history of animated maps as falling into four distinct eras of map functionality. Tthese historic periods are defined by what users can do with the animated maps of their day: Early on, users cold only “watch” (Era 1), then in the 1970s they could “control playback” (Era 2), followed by “control depictions” starting in the late 80s (Era 3), and finally map users could “author” their own animations (Era 4, today). Examples of specific animated maps are used to illustrate those developments. 
 
-[![TimeLine550][4]][4]  
+[![TimeLine550][4]](cartography2/images/HistoryMapAnimation/TimeLine550][4].jpg)  
 (click to see large)
 
 Making Animated Maps – Means of Production
@@ -37,7 +37,7 @@ Era #1: Manual Production
 
 The first animated maps were produced by hand, drawn one frame at a time using techniques developed for cartoon animation. One of the earliest examples of an animated map is a 30-second black-and-white newsreel produced by the Walt Disney Company in 1940 (Peterson 1999). This map involved a massive expenditure of time and money because it required making thousands of drawings by hand. The Disney animation depicts the invasion of Warsaw by the Nazis in 1939 and is remarkable as much for its artistic quality as for its rhetorical value. Using a combination of oblique and map-view perspectives above a highly stylized (and largely inaccurate) map of Warsaw, this animation suggests how the Nazi army advanced and encircled the city. Figure 2 is a series of screen captures from this newsreel. The map does not strive for realism in either the spatial or temporal dimensions, rather it succeeds at communicating the concept of invasion and thus provoking strong emotions in the audience. The specifics of the invasion are not as important as the fact that an act of war took place. Today, such emotive graphics are still popular with the news media—animations that are thin on details but thick with meaning.
 
-![Figure2][4]  
+![Figure2](cartography2/images/HistoryMapAnimation/Figure2.jpg)  
 ***Figure 2: **** Screen captures of a 1940 newsreel produced by Disney depicting the Nazi invasion of Warsaw.*  
 
 
@@ -47,13 +47,13 @@ Era #2: Computer-Assisted Production
 
 The first computer-generated animation was produced in 1963 by Edward Zajac working at Bell Laboratories in New Jersey (Figure 3). Zajac’s wireframe animation shows the orbital path and position of a satellite around a planet and represented an enormous achievement at the time. Cornwall and Robinson (1966) published the first article addressing the potential of computer-assisted animation. Although a computer was used to create and display the animation created by Cornwall and Robinson (1966), the images were transferred to conventional film by placing a 16mm film camera directly in front of the computer screen. This clumsy transfer process underscores the problems faced by these early pioneers both in the storage and the distribution of computer animations.
 
-![zajac][5]  
+![zajac](cartography2/images/HistoryMapAnimation/zajac.jpg)  
 ***Figure 3: ****Output from the first computer-generated animation, circa 1963, depicts the orbital path of a satellite.*
 
   
 In order to represent simulated urban growth in the Detroit region, Waldo Tobler (1970) used a computer to create individual frames in an animated sequence that was shot to film (Figure 4). Tobler’s work is remarkable for two reasons: It was the first computer-assisted animated map to be discussed in an academic publication and his motivation for creating it was to “…provide insights, mostly of an intuitive rather than formal nature, into the dynamics of urban growth” (Tobler 1970, p. 239). In other words, Tobler used animation to generate new insights into a complex process, rather than to communicate known facts about that process. As he very succinctly states, “Because a process appears complicated is no reason to assume that it is the result of complicated rules” (p. 234). Thirty years later, his hopes for the role of animation in the process of knowledge construction are finally coming to fruition and have been adopted as one of the central motivations of geographic visualization.
 
-![Tobler][6]  
+![Tobler](cartography2/images/HistoryMapAnimation/Tobler.jpg)  
 ***Figure 4: ****Screen captures from Tobler’s 2.5D mesh population surface animation, produced in 1970, show historic growth patterns in Detroit. A second animation revealed anticipated growth over the next 4 decades as part of an early computer-based urban simulation model. This map (and the research behind it) was years ahead of its time.*
 
 Moellering’s subsequent map animation work (1976) represents a rethinking of how to use map time to represent real-world time, and in the process, demonstrates the power of map animation to facilitate understanding of cyclic space-time phenomena. Moellering generated two animations based on three years of traffic-accident data for Detroit. In the first animation, three years of data are depicted in a few minutes and the accident patterns appear to be random. In the second, three years of data are used to create a single weekly composite that is divided into 15-minute averages. For example, all accidents over the three years that occurred at a given intersection on a Wednesday between 4:30pm and 4:45pm are collapsed into one frame. This creates an animated map that depicts long-term prevalence of accidents at various locations at certain points in the day, and on certain days of the week. What emerged from this temporal composite was a clear pattern of peak accident rates during rush hour, and the dramatic changes in where and when accidents occur from weekday to weekend. Moellering’s work is an excellent example of the use of map animation to better understand geographic processes, and not merely plot geographic patterns.
@@ -70,7 +70,7 @@ Before the desktop-PC revolution, the costs of digital animation were astronomic
 
 The prospects of digital animation improved significantly with the arrival of Alias Wavefront in 1984. At the then-bargain cost of $100,000, Wavefront was the first off-the-shelf animation software capable of producing high-quality, three-dimensional computer animations. By the mid-1980s, computer generated animations had migrated from million-dollar machines to specialized workstations costing tens of thousands of dollars. Although by today’s standards these early computer workstations were crude, they represented a new era of affordable commercial animation. A milestone in digital animation was achieved by Lucasfilm in 1983 with their release of the short film *Road to Point Reyes* (Figure 5) which depicted a virtual “road trip” complete with fog banks and atmospheric light scattering. Not long after this, digital animation began to appear in Hollywood films to create special effects such as the liquid morphing sequences in *The Abyss* (1989, 20th Century Fox). Along with the gaming industry and the military, Hollywood remains a principal driving force behind technological developments in computer animation today.
 
-![pt-reyes.JPG][7]***  
+![pt-reyes.JPG](cartography2/images/HistoryMapAnimation/pt-reyes.JPG.jpg)***  
 Figure 5: ****The ground-breaking, all-digital animation Road to Point Reyes produced by Lucasfilm in 1983. While there were a number of important breakthroughs in the 1980s in computer-based animation (and seen by its appearance in major motion pictures), distribution of animated maps was still a problem in that users had to "go to the content" it didn't "come to them" (on-demand).*  
 
 
@@ -125,7 +125,7 @@ By the late 1990s all of the major pieces needed for animated maps were in place
 
   
 One of the last hurdles for animated maps is [bandwidth][9], or the amount of data that can be transferred over wired and wireless networks. This is important because all things being equal, animated maps tend to be very large files and in the early days of the Web could take hours to download before they can be seen or used (and most folks just won't wait that long). 
-![north][10]  
+![north](cartography2/images/HistoryMapAnimation/north.jpg)  
 ***Figure 6:**** Postage-stamp sized content, typical of the early days of the Web*  
 
 
@@ -136,12 +136,12 @@ While universities and scietific centers have enjoyed sufficient bandwidth for t
 
 
   
-[![Trulia][13]][13]  
+[![Trulia][13]](cartography2/images/HistoryMapAnimation/Trulia][13].jpg)  
 ***Figure 7: ****Animated mash-ups, like this one **[showing where homes have been built over the past 100 years][13]**, are one of the very latest developments in animated map technology. Created by the talented folks at **[Stamen Design][14]**, this kind of animated map mash-up is the very cutting edge of work today.  
 *  
 ****
 
-[![Koblin][16]][16]****
+[![Koblin][16]](cartography2/images/HistoryMapAnimation/Koblin][16].jpg)****
 
 ***Figure 8: ****Aaron Koblin's **[beautiful maps of air traffic patterns][16]** show how people are are inventing creative new ways to visualize data. **[Watch the movie here][17]**: Look for the wave of flights from Europe and the way the eastern seaboard "lights-up" in the morning with the first wave of commuter flights. This is a very large and complex dataset that does in fact exhibit coherent behaviors. "Seeing" your data clearly is the raison d'etre for good design.  
 *

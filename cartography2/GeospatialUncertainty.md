@@ -82,7 +82,7 @@ Finally, many uncertainties are derived from the general trustworthiness of the 
 
 An excellent review of each category is provided by [Alan MacEachren, Anthony Robinson, and colleagues (2005)][16]. Table 1 lists the definitions provided by MacEachren et al. (2005) and provides an example of each category in the context of floodplain map as offered in [Roth (2009)][17].
 
-![Screen shot 2009-09-23 at 12.51.10 PM](cartography2/images/GeospatialUncertainty/Screen shot 2009-09-23 at 12.51.10 PM.jpg)
+![Screen shot 2009-09-23 at 12.51.10 PM](cartography2/images/GeospatialUncertainty/screen-shot-2009-09-23-at-12.51.10-pm.jpg)
 
 ***Table 1: ****Uncertainty Categories. The MacEachren et al. (2005) typology includes nine categories: (1) accuracy/error, (2) completeness, (3) consistency, (4) credibility, (5) currency, (6) interrelatedness, (7) lineage, (8) precision/resolution, and (9) subjectivity. Examples in the domain of floodplain mapping are given, as offered in Roth (2009).*
 

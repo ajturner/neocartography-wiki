@@ -53,7 +53,7 @@ One&nbsp;of&nbsp;the&nbsp;best&nbsp;ways&nbsp;to&nbsp;flatten&nbsp;the&nbsp;lear
   
 UIs based on&nbsp;icons have three big advantages over those based&nbsp;on&nbsp;words.&nbsp;Consider these&nbsp;signs&nbsp;from&nbsp;an&nbsp;airport:&nbsp;
 
-![airport_icons2][6]  
+![airport_icons2](cartography2/images/OverviewUI/airport_icons2.jpg)  
 
 
   
@@ -63,13 +63,13 @@ UIs based on&nbsp;icons have three big advantages over those based&nbsp;on&nbsp;
 
 **(3) They offer clues on what the user should do. **Highly iconic UIs, if well designed, can not only substitute for words, they can actually suggest how to use something (what are the actions required to operate it). The escalator icon above suggests "a person stands on this device."
 
-![ag_08e320_pwrseat][7]
+![ag_08e320_pwrseat](cartography2/images/OverviewUI/ag_08e320_pwrseat.jpg)
 
 [Don Norman][8] in his classic "[The Design of Everyday Things][9]" compliments Mercedes Benz for designing electric car seat controls that make great intuitive sense because the controls look like the chairs themselves: Moving the back of the seat icon moves the back of the seat, creating a very strong conceptual connection between UI action and physical outcome. The user doesn't have to translate a vague list of buttons into seat positions since the movement of the controls themselves mimic the very action the user is requesting. Even better, all of this can work by touch without the need to look at the UI controls for the seats (no need to take your eyes off the road).
 
 Of course, icons are *not *fail-proof and I've encountered many that leave me utterly baffled. This can happen if the concept behind the icon is somewhat obtuse and there are few or no obvious graphic signfiers ("sign vehicles") to choose from. For example, I would be hard pressed to suggest an icon for *ennui* as distinct from a more general *disappointment* or *boredom*, although icon designers are a remarkably clever bunch so I might be wrong. 
 
-![macKeyboard][10]
+![macKeyboard](cartography2/images/OverviewUI/macKeyboard.jpg)
 
 I've also run into trouble with icons/buttons on devices that are **vague** and when used seemed to do nothing. For example, just recently I couldn't figure out what these two icons on my new laptop keyboard did (above). After searching on the internet for longer than I wanted I discovered they control the amount of backlight on my keyboard. I couldn't figure this out since it was the middle of day and thus the backlight on my keyboard was not on. If I'd tried them in a darker environment, the controls might have made sense, but during the day they baffled me. Of course, these tiny keys have room for nothing but an icon, so I'm not sure what the alternative is other than to move this control from the mechanical keyboard to a software setting somewhere (which would be worse).
 
@@ -87,7 +87,7 @@ So what? Well, one of the most common mistakes I see in UI design is the desire 
 
 2. Keep It Simple Stupid. You might have 50 Photoshop filters at your disposal, but use them sparingly. Avoid pointless UI eye candy, no matter how hard the marketing department keeps pressuring you to create a UI with "more personality". Things like gel-like 3D faux shiny buttons might make your map feel more complete or polished but from a cognitive-perceptual stand point these embellishments offer no useful information and actually upstage the very UI bits that do "the real work" for the user. In the example below, the "0" is the only thing the user really needs to see...everything else is just expensive space filler. Really. 
 
-![calculator_gel_rectangle_button][12]
+![calculator_gel_rectangle_button](cartography2/images/OverviewUI/calculator_gel_rectangle_button.jpg)
 
 3. Group related items in the same space. Controls are often used in tandem, such as panning and zooming, and they should be logically grouped together.
 

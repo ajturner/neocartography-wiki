@@ -20,7 +20,7 @@ Another important aspect an animated map is its temporal granularity / resolutio
 
 Designing Temporal Legends
 
-![3legends][1]
+![3legends](cartography2/images/TimeAnimation/3legends.jpg)
 
 Above are the three most common kinds of temporal legend – digital clock, cyclical, and bar. **A good temporal legend has to communicate three things**: 
 
@@ -48,11 +48,11 @@ Experiments have shown that where multimedia elements are placed on the screen, 
 
 Proposed but untested solutions to the problem of split attention include (1) embedded audio cues that announce time (offloading some of the work to our ears) and (2) embedded visual cues that are superimposed onto the map itself allowing us (in theory) to keep our eyes on the map. Examples of an audio temporal legend would be the use of an announcer speaking ("Tuesday"), although the work that I have done with sonification of animated maps runs it to a basic problem: The map runs much faster than the announcer can talk (or the reader can hear), as indeed, our maps can run at 30 frames per second but few people can speakor comprehend 30 words per second (we tried using digital audio tools to speed-up the speaker and it became both unintelligible and hilarious).
 
-![Day_Night_Shadow][2]
+![Day_Night_Shadow](cartography2/images/TimeAnimation/Day_Night_Shadow.jpg)
 
 EMBEDDED VISUAL CUES: [Matt Bloch's flight map][3] is an example (from the [Overview Section][4]) how we can use obvious visual cues within our animated maps to** convey the passing of time**, in this case, the transition from day to night (shown as a shadow that sweeps from east to west across the map). Google Earth also allows users to add a day/night shadow to their maps. Although I've not seen any examples myself, it would be possible to use similar **seasonal cues for the passage of years** as the map or color scheme transitioned from winter colors and the formation of ice in the corners of the map, through spring, summer and fall. Of course, such artistic flourishes are somewhat cultural and only have meaning in places with pronounced seasons, but I suspect these might make for attractive—if somewhat informal—presentations.
 
-![Midtbo][5]
+![Midtbo](cartography2/images/TimeAnimation/Midtbo.jpg)
 
 AUDIO CUES: [Midtbø (2001)][6] suggests at least a dozen ways to minimize split attention in animated maps and has proposed a number of highly innovative map designs including maps that indicate the current time by their position on the screen or by wrapping the map inside of the temporal legend (see example above), and the use of sound in various ways to off-load some of the work from our eyes to our ears. One such example uses a four-channel system to create immersive audio cues to “move sound around the user” simulating a clock or yearly cycle. It is unclear how effective such techniques would be, but the idea of offloading some of the work from our eyes to our ears is both practical and supported by research in multimedia instructional design.
 
@@ -64,7 +64,7 @@ Although the most obvious way to animate spatio-temporal data is to simply play 
 
 Temporal re-expression is one of the most powerful cartographic transformations we can apply to better understand spatio-temporal data. The term was coined by [David DiBiase][7] in the early 1990s, although early examples appeared in the 1970s, including [Moellering's][8] famous Detroit Traffic Accident animated map. Temporal re-expression is displaying the same dataset using different temporal units in which the data are aggregated to create composite frames (or moments) in the animation. 
 
-[![550alcohol][10]][10]
+[![550alcohol][10]](cartography2/images/TimeAnimation/550alcohol][10].jpg)
 
 The map above presents [365 days of drinking related incidents for the University of Wisconsin-Madison][10] campus (data were recorded hourly). With this, for example, we can add together the 365 individual days into a single 'composite day' to show how these incidents might differ according to time of day. This allows us to answer questions such as “do more incidents occur at 8am than 8pm?” (yes!). Because the data are mapped, the spatial patterns of accidents and where those accidents occur, and by what cause factor, can be investigated allowing the reader, for example, to ask “even if the number of incidents are the same, does where they occur differ between 8am and 8pm?” (yes, again). The map also depicts the incident data as a composite week (e.g., “Do more incidents occur on Mondays than Fridays?”), and composite month (e.g., December versus May). This kind of control over the data allows many important space time patterns to emerge from the data that were otherwise hard to see or simply obscured. 
 
@@ -76,7 +76,7 @@ Temporal Granularity and Interpolation
 
 Aggregating our data together can be used to change how much time each frame of the animation represents, also known as temporal granularity. Doing this allows viewers to create temporal slices of different thickness so that the smallest/finest moment that can be seen in the animation could be changed from hours to days or months. The example of BallotBank shows financial campaign contributions in the United States. Initially these political donations are displayed monthly (the finest temporal unit available), although the viewer can aggregate and average the data on-the-fly over long intervals: In the image below, the temporal granularity of the map has been increased from 6 months to 12 months (each frame now shows a 12 month period). Because campaign contributions are closely tied with tax season, as well as election cycles (both 2 and 4 year) this flexibility can help to uncover subtle behaviors in political participation that the most temporally disaggregate data obscures. BallotBank.com also incorporates temporal focusing which lets the map reader set the start and end dates of the animation.
 
-![550BallotBank][11]
+![550BallotBank](cartography2/images/TimeAnimation/550BallotBank.jpg)
 
 Many animated maps employ temporal interpolation to “fill-in” missing time periods or to create a smoother looking animation. It is not uncommon to see maps in which the interpolated data outnumbers the “real” data 10 to 1. While interpolation is a robust science, when we map complex geographic processes it is hard to get it right and without ground truthing (usually an impossibility since without first developing a time machine) it can be very difficult to know if our estimates values reflect the reality on the ground. 
 

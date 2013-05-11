@@ -14,15 +14,15 @@ Of course, data probing is everywhere outside of mapping as well; on charts, gra
 1) Size  
 Large footprint info windows hold lots of data but end up obscuring much of the map itself. Often, it’s the&nbsp;*geographical context*&nbsp;and the&nbsp;*distribution of data*&nbsp;around a probed location that’s helpful for a more complete understanding of a place. When an info window obscures the map, the missing section must be held temporarily in a user’s working memory until the window is closed. For this reason, it’s usually worth minimizing this kind of cognitive load and coming up with ways to make info windows more compact.*Compactness*&nbsp;depends a lot on the volume of data that will wind up in the info window. Tiny, “tool tip”-sized window are great for small amounts of data, like a summary statistic, geographical feature name or ID, or a line of text. Larger windows, holding multiline text, images, etc., typically range between 250-350px wide and 100-400px tall. On some maps, both sizes can be used in tandem to good effect, like in the&nbsp;[University of Wisconsin&nbsp;Campus Map][2]&nbsp;below:  
   
-![uwCampusProbes][3]  
+![uwCampusProbes](cartography2/images/DataProbing/uwcampusprobes.jpg)  
 *University of Wisconsin Campus Map, showing large and small info windows.*
 
 Instead of expanding much beyond the larger size mentioned, its worth considering ways of organizing info window content&nbsp;to keep the footprint compact. One solution we really like is the idea of using tabs to categorize content and/or mini-slideshows for previewing distinct chunks of material. EveryBlock’s&nbsp;[city maps][4]&nbsp;and Stamen Design’s&nbsp;[London 2012 map][5]&nbsp;are good examples:
 
-![everyblock_probeSlideshow][6]  
+![everyblock_probeSlideshow](cartography2/images/DataProbing/everyblock_probeSlideshow.jpg)  
 *EveryBlock info window, showing mini-slideshow content.*
 
-![stamen_probeTabs][7]  
+![stamen_probeTabs](cartography2/images/DataProbing/stamen_probetabs.jpg)  
 *London 2012 info window, showing tabbed content.*  
   
 
@@ -31,7 +31,7 @@ We also like the idea of info windows that&nbsp;*re-size dynamically*&nbsp;(with
   
 
 
-![avoidProbe_blankSpace][8]  
+![avoidProbe_blankSpace](cartography2/images/DataProbing/avoidprobe_blankspace.jpg)  
 *Avoid too much empty space.*  
 
 
@@ -39,7 +39,7 @@ We also like the idea of info windows that&nbsp;*re-size dynamically*&nbsp;(with
 2) Position  
 If we apply what we learn from&nbsp;[Eduard Imhof][9]’s work on label positioning, the preferred place for an info window attached to points and other small objects would be&nbsp;*to the right and somewhat above*. In contrast, left and in-line positioning would be less desirable, although Imhof acknowledges that any placement is permissible and sometimes even necessary. Compared to positioning map labels, however, info windows are somewhat of a unique challenge. This is partly because they tend to be larger in size and partly because of our interest in keeping them on screen when opened near the edges of a map or application window.
 
-![avoidProbe_cutOff][10]  
+![avoidProbe_cutOff](cartography2/images/DataProbing/avoidprobe_cutoff.jpg)  
 *Avoid cutting-off info windows.*  
 
 
@@ -52,7 +52,7 @@ One ‘smart’ info window that I really like repositions itself left/right/top
 The info window stem is the visual link that connects it to a probed location. The problem of obscuring map context&nbsp;*in the immediate spatial neighborhood*&nbsp;can be solved by lengthening and/or shifting the stem along the window’s edge. It’s often the immediate geographical context that we’re most interested in, anyway. The question, ‘what’s near here?’ can be as interesting, if not more interesting than ‘what’s here?’. So, generally speaking, we prefer longish tails, but can think of cases where a short tail would be preferred (e.g., like on cell phone maps or other tiny map windows).  
 
 
-![longStem][13]  
+![longStem](cartography2/images/DataProbing/longstem.jpg)  
 *Longer stems can reveal neighboring map context.*  
 
 
@@ -61,7 +61,7 @@ Another option is to go without a stem at all, which keeps the area around a pro
   
 
 
-![nyTimes_stemlessProbe][15]  
+![nyTimes_stemlessProbe](cartography2/images/DataProbing/nytimes_stemlessprobe.jpg)  
 *New York Times info window without a stem.*  
 
 
@@ -72,7 +72,7 @@ A really obvious “X” button in the upper right corner is maybe the most imme
 One option that I don’t see too much of is that for opening&nbsp;*multiple info windows simultaneously*. Two or more open windows is very basic, yet invaluable, way of comparing details across locations. Universal Mind’s&nbsp;[LaunchPad demo][16]&nbsp;(below) allows users to open multiple info windows and then drag-and-drop them anywhere on the map. A similar approach might give users the option of “pinning” info windows to the map at their stem points, thus maintaining stronger visual linkages to locations. Perhaps, the windows could also be repositioned, with stems changing in length and direction.  
 
 
-![universalMind_multiProbe][17]  
+![universalMind_multiProbe](cartography2/images/DataProbing/universalmind_multiprobe.jpg)  
 *Universal Mind's LaunchPad, showing multiple info windows.*  
 
 
@@ -108,27 +108,27 @@ One option that I don’t see too much of is that for opening&nbsp;*multiple inf
 *   Stem Position and Angle.&nbsp;Stems positioned too closely to a corner can appear somewhat unstable. An angled stem, as opposed to a stem that extends perpendicularly from a side, can add a bit of visual interest, but too sharp of an angle can appear awkward, as shown below.&nbsp;Corner-anchored stems, although more uncommon, distance a window farther from its location than side-anchored stems, assuming equal lengths. They seem to appear most stable when extending at about 45 degrees (see below).
 
   
-![angleProbes][19]  
+![angleProbes](cartography2/images/DataProbing/angleprobes.jpg)  
 *Stems at steep angles or near corners appear less stable.*
 
-![cornerProbe][20]  
+![cornerProbe](cartography2/images/DataProbing/cornerprobe.jpg)  
 *Corner stems appear most stable at a 45-degree angle.*
 
 Alternatives to Info Windows
 
 There are plenty of examples in which data probing doesn’t bring up an info window at all. Rather, data is presented in some other part of the page or user interface. Although obscuring map surface area can be avoided this way, one issue to consider is&nbsp;split attention. This can weaken linkages and create more work for the user, whose attention has to be in multiple places–and potentially across large distances–on screen.&nbsp;[OpenStreetMap][21]&nbsp;and&nbsp;[Flickr’s Yahoo! Maps mashup][22]&nbsp;are both good examples of this alternative.
 
-**![osmProbe][23]**  
+**![osmProbe](cartography2/images/DataProbing/osmprobe.jpg)**  
 *OpenStreetMap splits apart a probed location (blue outline) and its related info.*
 
-![flickrProbe][24]  
+![flickrProbe](cartography2/images/DataProbing/flickrprobe.jpg)  
 *Flickr's map also splits apart a probed location (white star outline) and its info.*
 
 Other Examples of Info Windows
 
 1) Bing Maps
 
-**![bingProbe][25]**  
+**![bingProbe](cartography2/images/DataProbing/bingprobe.jpg)**  
 
 
 *   Mouse over/off to open/close
@@ -138,7 +138,7 @@ Other Examples of Info Windows
 *   Dynamic scaling
 
   
-2) Google Maps**![googleProbe][26]**  
+2) Google Maps**![googleProbe](cartography2/images/DataProbing/googleprobe.jpg)**  
 *   Click to open/close
 *   Window and stem are fixed position
 *   Auto-pan to stay on screen
@@ -148,7 +148,7 @@ Other Examples of Info Windows
   
 3) Stamen Design, Oakland Crimespotting  
   
-![stamenProbe_2][27]  
+![stamenProbe_2](cartography2/images/DataProbing/stamenprobe_2.jpg)  
 *   Click to open/close
 *   Scrolling content
 *   Fixed size and position
@@ -156,7 +156,7 @@ Other Examples of Info Windows
 *   Semi-transparent background
 
   
-4) Washington Post, Time-Space: World**![washPost_probe][28]**  
+4) Washington Post, Time-Space: World**![washPost_probe](cartography2/images/DataProbing/washpost_probe.jpg)**  
 *   Modified Google info window
 *   Click to open/close (smaller info window on mouse-over)
 *   Blue scroll buttons move between points in the cluster for a unique way of organizing content
@@ -164,7 +164,7 @@ Other Examples of Info Windows
   
 5) Yahoo! Maps  
   
-![yahooProbe_2][29]  
+![yahooProbe_2](cartography2/images/DataProbing/yahooprobe_2.jpg)  
 *   Click to open/close (smaller info window on mouse-over)
 *   Window and stem are fixed position
 *   Auto-pan to stay on screen

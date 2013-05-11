@@ -19,8 +19,8 @@ Folks who have inspired much of my thinking on this: [Alan MacEachren][1], [Mark
 
   
 Examples of Time on Static Maps
-[![Minard][5]][5]  
-(click to see big)  
+![Minard](cartography2/images/RepresentingTimeStatic/minard.jpg)  
+
 
 
   
@@ -32,8 +32,8 @@ Examples of Time on Static Maps
 
 **  
 **
-[![min_1a][7]][7]**  
-**[![legend][8]][8]**  
+![min_1a](cartography2/images/RepresentingTimeStatic/min_1a.jpg)**  
+**![legend](cartography2/images/RepresentingTimeStatic/legend.jpg)**  
 **
 
 Example #2: [Detected Groundwater Analyte from 1952 to 2002 in West Central Los Alamos and Pueblo Canyons][8]. Created by some of the staff at Los Alamos Lab, not only does this map help us to visualize a large amount of data about something we never get to see (movement of ground water) it also shows the differential impact—in both time and space—of pollutants from a mine. The map also includes relevant surface features like terrain and the location of buildings, roads which help explain the patterns seen undeground. The legend above explains how this maps works. I'm an especially big fan of the black for years with data and gray for years without (see how this makes scanning the full map that much faster). The circular time series graph creates a unique "signature" for each location, allowing us to extract specific facts for specific places (the numbers) and to appreciate the overall pattern across 50 years of data. The authors even included a way to use locations with different monitoring lifespans, without having to simply throw away newer monitoring sites or throwaway the oldest data. And all that fits in a few square inches. 
@@ -42,7 +42,7 @@ Example #2: [Detected Groundwater Analyte from 1952 to 2002 in West Central Los 
 
 **  
 **
-[![smallNDVI][10]][10]**  
+![smallNDVI](cartography2/images/RepresentingTimeStatic/smallndvi.jpg)**  
 **
 
 **  
@@ -57,13 +57,13 @@ Monmonier (1990) proposed strategies for the visualization of geographic time-se
 TYPE #1: Dance Maps show multiple time states on a single (static) representation, like foot-position diagrams used in ballroom dancing. Dance maps have the advantage of being easy to read because they directly and explicitly show a sequence of events and, thus, are a great choice for showing movement of discrete objects (like airplanes or animal migrations), especially if you only have a few objects. And unlike Chess Maps and Changes Maps (below), they can also show many time periods on a single map: for example, the map of the shift in the population center of the US over 200%2B years.   
 
 
-![cruzleft][10]  
+![cruzleft](cartography2/images/RepresentingTimeStatic/cruzleft.jpg)  
 
 
   
 They also explicitly encode rates of change if they record data at regular intervals: You can see the shift of the US population has accelerated in recent decades.
 
-[![centerPOP][12]][12]  
+![centerPOP](cartography2/images/RepresentingTimeStatic/centerpop.jpg)  
 
 
   
@@ -71,13 +71,13 @@ Dance maps, however, will not work if you're not showing movement. For example, 
 
 TYPE #2: Chess Maps show multiple time slices or “states,” and include popular methods such as the small multiple (small maps in a row or a grid). The advantage of the small multiple approach is that (1) you can show many time periods, and (2) the original data are shown and recoverable unlike Change Maps (below). Importantly, small multiple/chess maps can also show any kind of geographic change (change in *position*, *attribute*, or *existence*). However, these maps require a huge amount of mental work on the part of the map reader since 'change' is not actually encoded anywhere - it has to be deduced by the reader who does this by rapidly scanning back and forth among the images trying to discern what, exactly, has changed and where. 
 
-![chessBoard][12]
+![chessBoard](cartography2/images/RepresentingTimeStatic/chessboard.jpg)
 
 In fact, this change-detection task is so hard it is a classic puzzle you might find in something like *Games Magazine*: the "find what is different between these two complex images'" challenge. Not convinced? How long does it take you to find the differences above? Are you certain you found all of them? This mental workload is the single biggest disadvantage of chess maps.
 
 TYPE #3: Change Maps display the change (or difference) between two time periods, such as the percent increase in population over a 10-year period: The map doesn't show either time period, it shows the numerical difference between them. The advantage of these is that they "do the math for you" and directly show how much change has occurred. By adding color, like the example below, at a quick glance you can see the large patterns of change (areas that got colder and warmer). As mentioned above, on a chess map (above) seeing these changes requires much more work since you have to scan back and forth between the images to "uncover" what's be been changed, whereas a change map (here) exists to show you precisely what has changed (the "difference"). The problem is that change maps are really only good for showing two time periods, or one time period compared to an average—they're inherently binary—and unlike chess maps or dance maps cannot show more than two time periods.
 
-[![tempChange][14]][14]
+![tempChange](cartography2/images/RepresentingTimeStatic/tempchange.jpg)
 
 * * *
 
@@ -87,25 +87,25 @@ Isochronic maps and temporal cartograms are pretty cool, to be honest. They've a
 
 Traditional area cartograms (aka "area-by-value maps") are well-known maps that distort space to achieve some desireable outcome like a uniform population density. By comparison, a temporal cartogram distorts or re-projects space to create outcomes like equal travel times. Distance on these maps is used as a way to represent travel times from an origin city or subway station. Vasiliev (1997) identifies "time as distance" maps where physical space is held constant and time is transformed, aka "isochronic maps"; and "space as clock" maps where time is held constant and space is transformed. 
 
-![isochronicMap][14]  
+![isochronicMap](cartography2/images/RepresentingTimeStatic/isochronicMap.jpg)  
 
 
   
 Isochronic Map #1: Created by [Erwin Raisz][15] (1948) this map plots lines of equal travel time to fit 'normal' geography - the base map of the USA is readily recognized. Lines of equal travel time are called isochrons. Note how the Appalachian Mountains create a noticeable ripple in the pattern - even today they are are a major barrier for east-west travel. Note also that ships were faster than land travel in 1800, creating a bias toward the coasts.
 
-[![tsunami][17]][17]  
+![tsunami](cartography2/images/RepresentingTimeStatic/tsunami.jpg) 
 
 
   
 Isochronic Map #2: This recent map made by NOAA of the [travel time of the Indian Ocean tsunami][17] is the same concept as the Raisz map above, just made with more powerful tools. Indeed, GIS now allows for some [very impressive travel analysis][18] (isochron = line of equal travel time).
 
-[![CardenTube][20]][20]  
+![CardenTube](cartography2/images/RepresentingTimeStatic/CardenTube.jpg)  
 
 
   
 Temporal Cartogram #1: This [very cool interactive map of the London Tube][20] map (be sure to click on one of the lines/stations) distorts geographic space in order to create uniform travel times: The subway stations re-arrange themselves based on how far they are from each other in travel time not in geographic space. Created by the the very talented [Tom Carden][21].
 
-![huffman_airfare][22]  
+![huffman_airfare](cartography2/images/RepresentingTimeStatic/huffman_airfare.jpg)  
 
 
   
