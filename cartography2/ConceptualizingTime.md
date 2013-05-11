@@ -32,17 +32,13 @@ Reality? What Reality?
 
 Another insight that is somewhat shocking is that cartography is not about realism. Thematic mapping, and even reference mapping, isn't the same a photograph. If you want to take photos to cover a news story on energy consumption, you might capture an image of cars on a highway. But on a map we might use giant colored circles covering the land and viewed from far off in space (e.g., looking staight down). Below is a [map of energy consumption and federal funding][11], and despite the fact that the world isn't actually, literally covered with giant colored circles, this map nonetheless is a succinct summary of a complex social phenomenon.
 
-[![arra_fundingmap1-1024x682][13]][13]  
+![](cartography2/images/arra_fundingmap1-1024x682.jpg)
 
 
   
 Even icons used in referencing mapping are rarely as literal as a photograph; A popular way to indicate a park on a tourist map is a tepee tent although perhaps only a handful of parks actually have tepees, and of course, parks are much more than just tepees (semioticiains call these "associative map symbols"). Moreover, this tepee is extremely stylized and uses only 3 solid lines: As a result it can be shrunk way down in size and remain legible—a key requirement of references maps.  
   
-
-
-![parkIcons][13]  
-
-
+![](cartography2/images/parkIcons.jpg)
   
 **TAKE-HOME MESSAGE: **This means that our job as cartographers is not to simply photograph the world or to blindly mimic it. Rather, it is to create a visual abstraction that efficiently, and as accurately as possible, represents some aspect of the world. In order to do that, we need to know what it is that we're trying to capture in that representation in the first place. Hence our brief detour through an [ontological][14] discussion of the nature of time and geographic process. I know my description of the map-making process isn't a very [Brian Harley][15]-esque or [Denis Wood][16]-esque definition of mapping (red flags: "accurate", "real world") but it's where I'm coming from (i.e., a place with paying clients). Your mileage may vary.
 
@@ -50,7 +46,7 @@ Making Space for Time on our Maps
 
 Maps have always shown time. The problem was that time often wasn't explicit nor central to the maps purpose. As a result, cartographers have tended to treat time as an attribute rather than as a field. In other words, many static maps if they make mention of time add it simply as a date (e.g., "Data collected in 2009") or as a simple time-stamp of events (e.g., a battle occured here in this year). The important thing is that time is not a structuring dimension, on par with space, but is rather an attribute attached to locations. As a result, fewer methods have been developed for depicting time than space and fewer “rules” have been generated to guide cartographers in their use of temporal information. 
 
-[![lakeshore_Animation][18]][18]  
+![](cartography2/images/lakeshore_Animation.png)
 
 
   
