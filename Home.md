@@ -17,7 +17,8 @@ This repository has also captured the now defunct [Cartography2 website](wiki/Ca
 ### Interface Components
 
 * [Animation](wiki/OverviewAnimated)
- * [Conceptualizing Time](wiki/TimeAnimation)
+ * [Time Animation](wiki/TimeAnimation)
+ * [Conceptualizing Time](wiki/ConceptualizingTime)
  * [History of Animated Maps](wiki/HistoryMapAnimation)
  * [Time on Static Maps](wiki/RepresentingTimeStatic)
 * 3D/Virtual Globes
