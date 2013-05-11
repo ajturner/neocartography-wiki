@@ -33,7 +33,7 @@ This repository has also captured the now defunct [Cartography2 website](wiki/Ca
 
 ### Device Affordance
 
-* [Interface Evaluation](InterfaceEvaluation)
+* [Interface Evaluation](wiki/InterfaceEvaluation)
 * Mobile interfaces
 * TouchScreen maps
 * Hypermedia content
