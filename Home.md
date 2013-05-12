@@ -12,7 +12,16 @@ Neocartography is the study of new techniques of geospatial visualization, inter
 
 There are two sections to this project: a Wiki of articles, best practices, and case studies; and a Code Repository of implementation examples and experiments demonstrated the documented concepts of the Wiki. To contribute you can edit the Wiki, fork and submit pull requests of examples, or add links to [pinboard.in](https://pinboard.in/t:neocartography), [pinterest](http://pinterest.com/search/pins/?q=neocartography) or [delicious](https://delicious.com/search?p=neocartography) tagged 'neocartography'. 
 
-## Sections
+## How to Contribute
+
+This project aims to be a collection of tutorials, best practices, and functional examples of modern, appropriate, considerate map interaction and design. You can contribute in several ways:
+
+* Write an tutorial or update an article. submit a [pull request](https://github.com/ajturner/neocartography/pull/new/master) with your edits.
+* Suggest a topic. [create an issue](https://github.com/ajturner/neocartography/issues) with your suggestions and links to relevant materials
+* Contribute an example. submit a [pull request](https://github.com/ajturner/neocartography/pull/new/master) with your edits.
+* Join the discussion. ping me on twitter [@ajturner](http://twitter.com/ajturner) or via email on [my blog](http://highearthorbit.com)
+
+## Cartography2
 
 This repository has also captured the now defunct [Cartography2 website](wiki/Cartography2). It was the beginning of a series of articles on interactive cartography that will continue and grow here.
 
