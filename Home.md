@@ -1,4 +1,4 @@
-**tl;dr** There are enough articles on *How* to create maps; what is missing are tutorials on *What*, *When*, and *Why* to create and interact with maps. This is a project to help address that.
+**tl;dr** There are enough articles on *How* to create maps; what is missing are tutorials on the *What*, *When*, and *Why* to create and interact with maps. This is a project to help address that.
 
 ## About
 
