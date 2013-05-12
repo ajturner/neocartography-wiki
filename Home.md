@@ -1,3 +1,5 @@
+_tl;dr_ There are enough articles on *How* to create maps; what is missing are tutorials on *What*, *When*, and *Why* to create and interact with maps. This is a project to help address that.
+
 ## About
 
 The design of maps, navigation, and wayfinding have been evolving throughout the span of human history. We have constantly developed new techniques, concepts and technologies to understand our place in the world and how we convey that to other people. Maps provide a common, language independent, and visceral communications tool which taps into our basic cognition of visual pattern detection.
